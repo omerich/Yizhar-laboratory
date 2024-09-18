@@ -1,0 +1,59 @@
+WE have a total of 5 protocols:
+- IV curve:
+    - no imaging
+    - in VC from -80mv to 20mv in st
+    - 1 s pulses
+    - protocol total length ~60s 
+- Area of light approx ~0.180 mm^2
+    - circle of ~480 microns diameter
+    - this is not exact
+    - decay from peak from center
+    - FWHM ~250 um 
+- Chrimson Photocurrents
+    - No imaging (only used to control light intesity through micromanager)
+    - 20Hz pulses at pulse widths    [1, 2, 3, 4, 5, 50, 50, 50] (last three are end up 1s long conninuous light)
+    - 5 light intensities logarithmically spaced from 5% to 100%
+    - done in "mirror" filter
+    - max intensity yellow light 3760 uW (100%) (~ 20.88 mW/mm^2)
+- Chrimson Crosstalk
+    - No imaging (only used to control light intesity through micromanager)
+    - 1 pulse 1s and 100Hz 10 pulses
+    - cyan light
+    - 6 light intensities logarithmically spaced from 5% to 100%. 3 repeats per instensity
+    - light power in mirror 100% is 5210 uW 
+- GCaMP Cell attached:
+    - Current clamp mode
+    - 2000 pA current injection
+    - train rates = [1,2,4,8,10]
+    - durations = [4,3,2,1,0.4] 
+    - pulses = [4,6, 8, 8, 4]
+    - light intensity 10% in cyan light. 5210 uW = 100% (~28.9mW/mm^2)
+    - GPF filter
+    - 60Hz imaging
+    - exposure 7ms
+    - External triggering of frames
+    - 1 sweep = ~20s
+- All optical
+    - Dual bandpass dicroic filter
+    - 60Hz imaging
+    - exposure 7ms
+    - External triggering of frames
+    - 1 sweep = ~13s
+    - Cyan light ~10% (100% is 5340 uW) (~29.6mW/mm^2)
+    - Yellow light 
+        - 5% to 100% (100% is 346 uW) **This is way dimmer than in mirror mode**
+        - **Just noticed green light is way brighter through this filter** ~5100uW = 100% (~28.6mW/mm^2)
+        - 100% is 1.922 mW/mm^2
+        - All trains at 10Hz for 1 sec
+        - pulse widths= [1,2,3,5] ms
+        - light intensitites logarithmically spaced 6 intensities.
+    - No voltage or current
+    - FOV = 165 um x 165um 
+        - resolution 1024x1024
+        - 4x4 binned
+    
+
+- General details:
+    - 50kHz sampling ephys
+    - with 10kHz lowpass
+    - 
