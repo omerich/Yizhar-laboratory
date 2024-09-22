@@ -8,15 +8,7 @@
         "min_cyan_light": 1,
         "max_cyan_light": 100
     },
-    "config_params_GTARC2_yellow_cyan": {
-        "runs": 6,
-        "sweeps": 1,
-        "frames_per_sweep": 5,
-        "min_yellow_light": 2,
-        "max_yellow_light": 22,
-        "min_cyan_light": 1,
-        "max_cyan_light": 4
-    },
+
     "config_params_teal_cyan": {
         "runs": 4,
         "sweeps": 1,

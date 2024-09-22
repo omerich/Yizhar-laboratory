@@ -7,8 +7,7 @@ def get_folder_name(config_params):
     return foldername
 
 def verify_cell(cell_dict):
-    valid_construct=['D910', 'D850', 'D871', 'D911', 'D839', 'D907', 'AAV349-1', 'AAV350-1', 'AAV358-1', 'D830', 'AAV359-1','AAV361-1', 'D830', 'D832', 'AAV357-1','D918','D919','Add12Con','AAV223','AAV362','AAV363', 'AAV366','AAV83','AAV367'
-                     ]
+    valid_construct=['AAV83','AAV362','AAV363','AAV366','AAV367','D942','D918','D919','D223','D663']
     
     assert(cell_dict["construct"] in valid_construct)
 

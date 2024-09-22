@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from pycromanager import Acquisition, multi_d_acquisition_events
 from pathlib import Path
 from time import sleep 
-from utils import *
+from Utils_omer import *
 
 def run_yellow_cyan_control(mmc, savepath, config_params):
     mmc.set_config("CameraMode", "ExtTrigChrimsonPC")
